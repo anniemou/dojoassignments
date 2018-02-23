@@ -1,0 +1,56 @@
+.container{
+    background-color: gray;
+    border: 3px solid black;
+    width: 700px;
+    height: 733px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.red-holder{
+    margin-bottom: 20px;
+}
+.red{
+    background-color: red;
+    border: 3px solid black;
+    width: 47% ;
+    height: 150px;
+    display: inline-block; 
+    margin: 0 26px 0 0;
+}
+.blue{
+    background-color: blue;
+    border: 3px solid black; 
+    width: 99%;
+    height: 150px;
+    margin-bottom: 20px; 
+}
+.yellow-holder{  
+    margin-bottom: 20px;
+}
+.yellow{
+    background-color: yellow;
+    border: 3px solid black;
+    width:29.5%;
+    height: 150px;
+    display: inline-block;
+    margin: 0 26px 0 0;  
+}
+.green{
+    margin-bottom: 20px;
+    background-color: green;
+    border: 3px solid black;
+    width: 93%;
+    height: 150px;
+    padding:20px;
+}
+.purple{
+    background-color: purple;
+    border: 3px solid black;
+    width:25%;
+    height: 100%;
+    display: inline-block;
+    margin: 0 309px 0 0;  
+}
+.no-margin{
+    margin: 0; 
+}
