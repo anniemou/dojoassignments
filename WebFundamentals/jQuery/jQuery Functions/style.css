@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+    max-width: 970px;
+    width: 970px;
+    margin: 0 auto;
+}
+
+.content{
+    background-color: rgb(172, 165, 165);
+  
+
+}
+.title{
+background-color: white;
+height: 150px;
+width: 800px;
+color: rgb(17, 16, 16); 
+margin: 20px;
+
+}
+.button{
+    background-color: rgb(204, 204, 219);
+    height: 31px;
+    width: 80px;
+    border: 3px solid #0c0c0c;
+    padding: 0px 0px;
+    margin: 16px auto 0 auto;
+
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.h1{
+
+text-align: center;
+
+}
+.p{
+
+}
+#show .p{
+    display: none;
+}
+#faleIn .p{
+    display: none;
+}

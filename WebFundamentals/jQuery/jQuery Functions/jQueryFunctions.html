@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+   
+    <title>JQuery</title>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+
+      $('#hide .button').click(function(){
+          $('#hide .p').hide();
+      })
+
+    $('#show .button').click(function(){
+            $('#show .p').show();
+        })
+
+    $('#toggle .button').click(function(){
+            $('#toggle .p').toggle();
+        })
+    $('#slideDown .button').click(function(){
+            $('#slideDown .p').slideDown();
+        })
+    $('#slideUp .button').click(function(){
+            $('#slideUp .p').slideUp();
+        })
+    $('#slideToggle .button').click(function(){
+            $('#slideToggle .p').slideToggle();
+        })
+    $('#faleIn .button').click(function(){
+            $('#faleIn .p').fadeIn();
+        })   
+    $('#fadeOut .button').click(function(){
+            $('#fadeOut .p').fadeOut();
+        })
+
+        // 
+    $('#addClass .button').click(function(){
+            $('#addClass .p').addClass('blue');
+        })    
+    $('#before .button').click(function(){
+            $('#before .p').before('<div>This is inserted before the P tag</div>');
+        })
+    $('#after .button').click(function(){
+            $('#after .p').after('<div>This is inserted after the P tag</div>');
+        })   
+    $('#append .button').click(function(){
+            $('#append .h1').append('This is appended to the end of the p');
+        })  
+    $('#html .button').click(function(){
+            var html = $('#html .p').html();
+            $("#html .p").append(html);
+        })
+    $('#attr .button').click(function(){
+            var red = $('#attr .p').attr('id');
+            $('#attr .h1').addClass(red);
+        })  
+    $('#val .button').click(function(){
+            var fruit = $('#val select').val();
+            $('#val .p').append(fruit);
+        })   
+    $('#text .button').click(function(){
+            var text = $('#text .p').text();
+            $('#text .p').append(text);
+        })      
+      $('#data .button').click(function () {
+          var data = $('#data .p').data('data', { first: 'banana', second: "apple" });
+          $('#data .p').text($('#data .p').data('data').second);
+      })
+
+  })
+
+  </script>
+</head>
+<body>
+    <div class="content">
+        <div class="title">
+            <div class="button">clike here</div>
+            <div class="h1">click</div>
+            <div class="p">Bind an event handler to the "click" JavaScript event, or trigger that event on an element.</div>
+        </div>
+        <div class="title" id="hide">
+            <div class="button">clike here</div>
+            <div class="h1">Hide</div>
+            <div class="p">Hide the matched elements.</div>
+        </div>
+        <div class="title" id="show">
+            <div class="button">clike here</div>
+            <div class="h1">show</div>
+            <div class="p">Display the matched elements.</div>
+        </div>
+        <div class="title" id="toggle">
+            <div class="button">clike here</div>
+            <div class="h1">toggle</div>
+            <div class="p">Display the matched elements.</div>
+        </div>
+        <div class="title" id="slideDown">
+            <div class="button">clike here</div>
+            <div class="h1">slideDown</div>
+            <div class="p">Display the matched elements with a sliding motion.</div>
+        </div>
+        <div class="title" id="slideUp">
+            <div class="button">clike here</div>
+            <div class="h1">slideUp</div>
+            <div class="p">Hide the matched elements with a sliding motion.</div>
+        </div>
+        <div class="title" id="slideToggle">
+            <div class="button">clike here</div>
+            <div class="h1">slideToggle</div>
+            <div class="p">Display or hide the matched elements with a sliding motion.</div>
+        </div>
+        <div class="title" id="faleIn">
+            <div class="button">clike here</div>
+            <div class="h1">faleIn</div>
+            <div class="p">Display the matched elements by fading them to opaque.</div>
+        </div>
+        <div class="title"id="fadeOut">
+            <div class="button">clike here</div>
+            <div class="h1">fadeOut</div>
+            <div class="p">Hide the matched elements by fading them to transparent.</div>
+        </div>
+        <div class="title" id="addClass">
+            <div class="button">clike here</div>
+            <div class="h1">addClass</div>
+            <div class="p">Adds the specified class(es) to each element in the set of matched elements.</div>
+        </div>
+        <div class="title" id="before">
+            <div class="button">clike here</div>
+            <div class="h1">before</div>
+            <div class="p">Insert content, specified by the parameter, before each element in the set of matched elements.</div>
+        </div>
+        <div class="title" id="after">
+            <div class="button">clike here</div>
+            <div class="h1">after</div>
+            <div class="p">Insert content, specified by the parameter, after each element in the set of matched elements.</div>
+        </div>
+        <div class="title" id="append">
+            <div class="button">clike here</div>
+            <div class="h1">append</div>
+            <div class="p">Insert content, specified by the parameter, to the end of each element in the set of matched elements.</div>
+        </div>
+        <div class="title" id="html">
+            <div class="button">clike here</div>
+            <div class="h1">html</div>
+            <div class="p">Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.</div>
+        </div>
+        <div class="title" id="attr">
+            <div class="button">clike here</div>
+            <div class="h1">attr</div>
+            <div class="p" id="red">Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.</div>
+        </div>
+        <div class="title" id="val">
+            <div class="button">clike here</div>
+            <div class="h1">val</div>
+            <div class="p">Get the current value of the first element in the set of matched elements or set the value of every matched element.</div>
+            <select>
+                <option value="Banana">Banana</option>
+                <option value="Apple">Apple</option>
+                <option value="Orange">Orange</option>
+            </select>
+        </div>
+        <div class="title" id="text">
+            <div class="button">clike here</div>
+            <div class="h1">text</div>
+            <div class="p">Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements.</div>
+        </div>
+        <div class="title" id="data">
+            <div class="button">clike here</div>
+            <div class="h1">data</div>
+            <div class="p">Store arbitrary data associated with the matched elements or return the value at the named data store for the first element in the set of matched elements.</div>
+        </div>
+    </div>
+</body>
+</html>
