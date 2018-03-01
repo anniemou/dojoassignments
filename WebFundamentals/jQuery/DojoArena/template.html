@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dojo Arena</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles/styles.css">
+        <!-- UPDATE THIS LINE -->
+        <script src="template.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="content">
+            <div class="banner dilb">
+                <div id="banner" class=""></div>
+            </div>
+            <div class="select-arena dilb">
+                <h1>Select Arena</h1>
+                <div class="dilb areas">
+                    <button class="dilb location beach" id="beach">Beach</button>
+                    <button class="dilb location planet" id="earth">Planet</button>
+                    <button class="dilb location dojo" id="dojo">Dojo</button>
+                    <button class="dilb location forest" id="forest">Forest</button>
+                    <button class="dilb location matrix" id="matrix">Matrix</button>
+                    <button class="dilb location snow" id="snow">Snow</button>
+                </div>
+            </div>
+            <div class="select-player dilb">
+                <h1>Select Player</h1>
+                <h3 class="dilb">Player 1</h3>
+                <h3 class="dilb">Player 2</h3>
+                <select name="" id="select_1">
+                    <option value=""></option>
+                    <option value="">Leonardo</option>
+                    <option value="">Michaelangelo</option>
+                    <option value="">Raphael</option>
+                    <option value="">Donatello</option>
+                </select>
+                <select name="" id="select_2">
+                    <option value=""></option>
+                    <option value="">Leonardo</option>
+                    <option value="">Michaelangelo</option>
+                    <option value="">Raphael</option>
+                    <option value="">Donatello</option>
+                </select>
+            </div>
+            <div class="player-one player"></div>
+            <div class="player-two player"></div>
+        </div>
+    </body>
+</html>

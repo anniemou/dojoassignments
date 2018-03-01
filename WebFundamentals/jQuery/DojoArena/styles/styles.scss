@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block; }
+
+body {
+line-height: 1; }
+
+ol, ul {
+list-style: none; }
+
+blockquote, q {
+quotes: none; }
+
+blockquote {
+&:before, &:after {
+    content: '';
+    content: none; } }
+
+q {
+&:before, &:after {
+    content: '';
+    content: none; } }
+
+table {
+border-collapse: collapse;
+border-spacing: 0; }
+
+// COLOR DECLARATION
+$red: #c00; 
+
+
+
+// HELPERS
+.dilb{
+    display: inline-block;
+}
+.hide{
+    display: none;
+}
+
+// BEGIN CONTENT SPECIFIC FILES
+.content{
+    max-width: 1024px;
+    width: 1024px;
+    max-height: 1000px;
+    height: 768px;
+    margin: 0 auto;
+    background-color: #555;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    .banner{
+        background-color: black;
+        max-width: 100%;
+        width: 1024px;
+        height: 768px;
+        max-height: 100%;
+        vertical-align: top;
+        .beach{
+            background-image: url("../images/beach.jpg");
+        }
+        .earth{
+            background-image: url('../images/earth.jpg');
+        }
+        .dojo{
+            background-image: url('../images/dojo.jpg');
+        }
+        .forest{
+            background-image: url('../images/forest.jpg');
+        }
+        .matrix{
+            background-image: url('../images/matrix.jpg');
+        }
+        .snow{
+            background-image: url('../images/snow.jpg');
+        }
+        #banner{
+            max-width: 1024px;
+            max-height: 768px;
+            min-width: 1024px;
+            min-height: 768px;
+            width: 1024px;
+            height: 768px;
+            position: absolute;
+            top: 20px;
+            left: 441px;
+            background-size: cover;
+        }
+    }
+    h1{
+        color: orange;
+        text-shadow: 2px 2px  white;
+        margin: 0 0 20px 0;
+        font-size: 40px;
+        text-align: center;
+    }
+    .select-arena, .select-player{
+        border: 3px solid #555;
+        border-radius: 5px;
+        background-color: #999;
+        padding: 20px;
+        max-width: 30%;
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: -530px;
+        left: 320px;
+        z-index: 20;
+        .areas{
+            
+            .location{
+                background-color: whitesmoke;
+                padding: 5px 20px;
+                font-size: 16px;
+                width: 93px;
+                height: 30px;
+                border-radius: 5px;
+                margin: 0 2px 5px 2px;
+            }
+            .location:hover{
+                cursor: pointer;
+                background-color: orange;
+            }
+        }
+        h3{
+            text-align: center;
+            width: 45%;
+        }
+        select{
+            width: 49%;
+
+        }
+    }
+    .select-player{
+        // top: -556px;
+        // left: -37px;
+        z-index: 10;
+        display: none;
+    }
+    .Donatello{
+        background-image: url('../images/donny.png');
+    }
+    .Leonardo{
+        background-image: url('../images/leo.png');
+    }
+    .Michaelangelo{
+        background-image: url('../images/mikey.png');
+    }
+    .Raphael{
+        background-image: url('../images/raphael.png');
+    }
+    .player{
+        width: 290px;
+        height: 290px;
+        position: absolute;
+        top: 498px;
+        left: 600px;
+        z-index: 30;
+        background-size: cover;
+    }
+    .player-two{
+        left: 980px;
+    }
+}
