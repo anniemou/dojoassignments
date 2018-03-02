@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+    max-width: 970px;
+    width: 970px;
+    margin: 0 auto;
+}
+
+img 
+{
+    width: 200px;
+    height: 200px;
+    margin: 5px;   
+    align-items: center;
+ 
+}
+button{
+    width: 100px;
+    padding: 5px 20px;
+    background-color: #009E0F;
+    
+    
+}
