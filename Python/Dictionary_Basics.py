@@ -4,12 +4,12 @@
 #My country of birth is The United States
 #My favorite language is Python
 ###############################################################
-info = {"name": "Anna", "age": 101, "country": "United States", "Language": "Python"}
-print "My name is", info["name"]
-print "My age is", info["age"]
-print "My country of birth is The", info["country"]
-print "My favorite language is" , info["Language"]
+info2 = {"name": "Anna", "age": 101, "country of birth": "The United States", "favorite language": "Python"}
+def iterateDict(dic):
+    for key,data in dic.iteritems():
+        print "My {} is {}".format(key, data)
 
+iterateDict(info2)
 
 
 
