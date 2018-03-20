@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey form</title>
+</head>
+<body>
+   <form action="/surveys/process/" method="post">
+    {% csrf_token %}
+    <p>
+        Your name: <input type="text" name="name" id="name">
+        Dojo Location: 
+        <select name="location" id="location">
+            <option value="Seattle">Seattle, WA</option>
+            <option value="Bellevue">Bellevue, WA</option>
+        </select>
+        Favorite language: <input type="text" name="language" id="language">
+        Comment (optional): <input type="text" name="comment" id="comment">
+    </p>
+    <input type="submit" value="Submit">
+   </form> 
+</body>
+</html>
