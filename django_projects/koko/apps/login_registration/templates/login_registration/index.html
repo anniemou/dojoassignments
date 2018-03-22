@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login & Reg | Home</title>
+</head>
+
+<body>
+    <h1>Registration</h1>
+    <form action="/login/register/" method="post">
+        {% csrf_token %}
+        <p>
+            <label for="firstname">Firstname: </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter first name">
+        </p>
+        <p>
+            <label for="lastname">Lastname: </label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter last name">
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </p>
+        <p>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+        </p>
+        <p>
+            <label for="cfpassword">Confirm Password: </label>
+            <input type="password" name="cfpassword" id="cfpassword" placeholder="Confirm your password">
+        </p>
+        <input type="submit" value="Register">
+    </form>
+
+    <h1>Login</h1>
+    <form action="/login/login/" method="post">
+        {% csrf_token %}
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </p>
+        <p>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+        </p>
+        <input type="submit" value="Login">
+    </form>
+</body>
+
+</html>
