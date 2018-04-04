@@ -1,0 +1,10 @@
+C:\temp\dotnetcore\Wizard_Ninja_Samural\bin\Debug\netcoreapp2.0\Wizard_Ninja_Samural.deps.json
+C:\temp\dotnetcore\Wizard_Ninja_Samural\bin\Debug\netcoreapp2.0\Wizard_Ninja_Samural.runtimeconfig.json
+C:\temp\dotnetcore\Wizard_Ninja_Samural\bin\Debug\netcoreapp2.0\Wizard_Ninja_Samural.runtimeconfig.dev.json
+C:\temp\dotnetcore\Wizard_Ninja_Samural\bin\Debug\netcoreapp2.0\Wizard_Ninja_Samural.dll
+C:\temp\dotnetcore\Wizard_Ninja_Samural\bin\Debug\netcoreapp2.0\Wizard_Ninja_Samural.pdb
+C:\temp\dotnetcore\Wizard_Ninja_Samural\obj\Debug\netcoreapp2.0\Wizard_Ninja_Samural.csproj.CoreCompileInputs.cache
+C:\temp\dotnetcore\Wizard_Ninja_Samural\obj\Debug\netcoreapp2.0\Wizard_Ninja_Samural.AssemblyInfoInputs.cache
+C:\temp\dotnetcore\Wizard_Ninja_Samural\obj\Debug\netcoreapp2.0\Wizard_Ninja_Samural.AssemblyInfo.cs
+C:\temp\dotnetcore\Wizard_Ninja_Samural\obj\Debug\netcoreapp2.0\Wizard_Ninja_Samural.dll
+C:\temp\dotnetcore\Wizard_Ninja_Samural\obj\Debug\netcoreapp2.0\Wizard_Ninja_Samural.pdb
